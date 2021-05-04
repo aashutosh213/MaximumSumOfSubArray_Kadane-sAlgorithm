@@ -13,7 +13,7 @@ int maxSum(const int* const a,int n){
             sum = 0;
         
         ans = max(ans, sum);
-        // cout<< ans << "   ,sum:" <<sum<< endl;
+        cout<< ans << "   ,sum:" <<sum<< endl;
     }
     return ans;
 }
