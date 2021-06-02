@@ -7,10 +7,10 @@ int maxSum(const int* const a,int n){
     for(int i{0}; i<n; i++)
     {
 
-        if(sum + a[i] > 0)
+        if(sum + a[i] => a[i])
             sum+=a[i];
         else
-            sum = 0;
+            sum = a[i];
         
         ans = max(ans, sum);
         cout<< ans << "   ,sum:" <<sum<< endl;
