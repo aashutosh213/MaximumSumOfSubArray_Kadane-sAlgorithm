@@ -7,7 +7,7 @@ int maxSum(const int* const a,int n){
     for(int i{0}; i<n; i++)
     {
 
-        if(sum + a[i] => a[i])
+        if(sum + a[i] >= a[i])
             sum+=a[i];
         else
             sum = a[i];
